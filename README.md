@@ -1,29 +1,40 @@
 # Coding Challenge
 
-Utilizando o framework Django desenvolva:
+1. Crie um sistema para uma ong de animais, utilizando de preferência o framework Django ou Laravel;
+2. O sistema terá que ter acesso somente por usuários autenticados;
+3. Esse sistema deve ter os seguintes CRUDS:
+  * Animais - listagem, cadastro, edição e remoção
+  * Doações - listagem, cadastro, edição e remoção
+  * Veterinários - listagem, cadastro, edição e remoção
+  * Usuários administrativos - listagem, cadastro, edição e remoção
+  * Histórico de atendimento do animal - listagem, cadastro
+4. Esse sistema deve disponibilizar os recursos abaixo para acesso via API (REST):
+  * Animais - listagem
+  * Doações - listagem
+  * Veterinários - listagem, cadastro, edição e remoção
+5. Regras:
+  * Animais (nome, imagem, idade, espécie, raça, observação) - observação pode ser nula, imagem somente png ou jpg
+  * Doações (dados do doador, tipo, quantidade) - tipo pode ser somente ração ou medicamentos, doação pode ser especifica para um animal ou não
+  * Veterinários (nome, telefone, crv, endereço)
+  * Histórico de atendimento (data, animal, veterinário, observação) - todos os campos são obrigatórios. Deve ser apresentado apenas na tela de edição do animal.
+  * O cadastro de novos usuários é feito somente por usuários logados;
+6. Escrever o **COMO SUBIR A APLICAÇÃO** abaixo;
 
-1. Utilizando o framework Django crie um sistema para uma ong de animais;
-2. O sistema terá que ter acesso somente por API Rest;
-3. Esse sistema deve ter os seguintes CRUDS, front-end deve ser feito em reactjs e consumir a api:
-	* Animais - listagem pública / Cadastro, edição e remoção mediante autenticaçãomediante autenticação
-	* Doações - listagem pública / Cadastro, edição e remoção mediante autenticação
-	* Veterinários - mediante autenticação
-	* Usuários administrativos - mediante autenticação
-4. Regras:
-	* Animais(nome, imagem, idade, espécie, raça, observação) - obversação pode ser nula, imagem somente png ou jpg
-	* Doações(dados do doador, tipo, quantidade) - tipo pode ser somente ração ou medicamentos, doação pode ser especifica para um animal ou não
-	* Veterinários(nome, telefone, crv, endereço)
-5. Escrever o COMO USAR abaixo;
+# Observação
+
+```
+O repositório deve ser forkado e feito PR com a implementação realizada.
+```
 
 # Critério de avalição
 
 1. Entender os conceitos de OO, framework e linguagem
-2. Teste unitário e automação de testes
-3. Code design
-4. Habilidade de escrever boa documentação
-5. Error handling 
-6. BONUS: build e/ou deploy scripts
-7. BONUS: Docker script 
+2. Code design
+3. Habilidade de escrever boa documentação
+4. Error handling 
+5. BONUS: build e/ou deploy scripts
+6. BONUS: Docker script
+7. BONUS: Teste unitário e automação de testes
 
 # Como subir a aplicação
-bla, bla e bla
+Explicar detalhamente como deve ser feito para rodar a aplicação

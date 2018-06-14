@@ -8,7 +8,7 @@
   * Veterinários - listagem, cadastro, edição e remoção
   * Usuários administrativos - listagem, cadastro, edição e remoção
   * Histórico de atendimento do animal - listagem, cadastro
-4. Esse sistema deve disponibilizar os recursos abaixo para acesso via API (REST):
+4. Esse sistema deve disponibilizar os recursos abaixo para acesso via API (REST) com retorno em JSON:
   * Animais - listagem
   * Doações - listagem
   * Veterinários - listagem, cadastro, edição e remoção
@@ -35,6 +35,7 @@ O repositório deve ser forkado e feito PR com a implementação realizada.
 5. BONUS: build e/ou deploy scripts
 6. BONUS: Docker script
 7. BONUS: Teste unitário e automação de testes
+8. BONUS: Autenticação na API
 
 # Como subir a aplicação
 Explicar detalhamente como deve ser feito para rodar a aplicação

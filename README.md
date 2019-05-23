@@ -1,14 +1,14 @@
 # Coding Challenge
 
-1. Crie um sistema para uma ong de animais, utilizando de preferência o framework Django ou Laravel;
+1. Crie um sistema para uma ong de animais, utilizando o framework Django;
 2. O sistema terá que ter acesso somente por usuários autenticados;
-3. Esse sistema deve ter os seguintes CRUDS:
+3. Esse sistema deve ter os seguintes CRUDS (Sem utilização do Django Admin):
   * Animais - listagem, cadastro, edição e remoção
   * Doações - listagem, cadastro, edição e remoção
   * Veterinários - listagem, cadastro, edição e remoção
   * Usuários administrativos - listagem, cadastro, edição e remoção
   * Histórico de atendimento do animal - listagem, cadastro
-4. Esse sistema deve disponibilizar os recursos abaixo para acesso via API (REST) com retorno em JSON:
+4. Esse sistema deve disponibilizar os recursos abaixo para acesso via API, utilizando Django Rest Framework com retorno em JSON:
   * Animais - listagem
   * Doações - listagem
   * Veterinários - listagem, cadastro, edição e remoção
